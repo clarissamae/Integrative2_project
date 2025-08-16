@@ -9,7 +9,7 @@ const password = ref('')
 const isRememberMe = ref(false)
 
 const handleLogin = () => {
-    if (username.value != 'mendoza' || password.value != 'Angel') {
+    if (username.value != 'Navanes' || password.value != 'Clarissa') {
         alert('Invalid credentials')
         return
     }
